@@ -1,0 +1,2 @@
+1. First Export the Problem3.java file into Problem3.jar file
+2. Run command from the directory contaning Problem3.jar file:  hadoop jar Problem3.jar Problem3 <path to KEYWORDS.TSV.gz> <path to REVISION_URIS.TSV.gz> out

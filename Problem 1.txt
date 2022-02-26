@@ -1,0 +1,22 @@
+Note: change the path of the open nlp bin file in the respective java files.
+For Part 1:
+
+Export the Problem1Part1.java file in a jar file. Then run the following command:
+hadoop jar <Path-to-jar-file> Problem1Part1 <Path-to-wikipedia-folder> <Name-of-output-folder-1> <Name-of-output-folder-2>
+
+The output folder-1 will contain the count of number of nouns and output folder-2 will contain count of total word.
+
+
+
+
+For Part 2:
+
+1st solution:
+Export the Problem1Part21.java file in a jar file. Then run the following command:
+hadoop jar <Path-to-jar-file> Problem1Part21 <Path-to-wikipedia-folder> <Name-of-output-folder>
+The output folder will contain the count of number of nouns and count of total word.
+
+2nd solution:
+Export the Problem1Part22.java file in a jar file. Then run the following command:
+hadoop jar <Path-to-jar-file> Problem1Part22 <Path-to-wikipedia-folder> <Name-of-output-folder>
+The output folder will contain the percentage of nouns in total.

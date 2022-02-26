@@ -1,0 +1,15 @@
+For Part 1:
+
+Export the Problem2Part1.java file in a jar file. Then run the following command:
+hadoop jar <Path-to-jar-file> Problem2Part1 <Path-to-wikipedia-folder> <Name-of-output-folder>
+
+The output folder will contain the document frequency of every word.
+
+
+
+
+For Part 2:
+
+Export the Problem2Part2.java file in a jar file. Then run the following command:
+hadoop jar <Path-to-jar-file> Problem2Part2 <Path-to-part-r-0000-file-in-output-folder-of-part-1> <Path-to-wikipedia-folder> <Name-of-output-folder>
+The output folder will contain the term frequency of every word.
